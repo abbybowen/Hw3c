@@ -1,4 +1,5 @@
 // Author: Abigail Bowen aeb6095@psu.edu
+// Section: 6
 #include <stdio.h>
 #include <readline/readline.h>
 #include <math.h>
