@@ -9,11 +9,12 @@
       return n;
     }
     else {
-      return (n % 10) + digit_sum(n/10);
+      return (n%10) + digit_sum(n/10);
     }
   }
 
 int main(void) {
   int n = atoi(readline("Enter an int: "));
   printf("sum of digits of %d is %d.\n",n, digit_sum(n));
+  return 0;
 }
